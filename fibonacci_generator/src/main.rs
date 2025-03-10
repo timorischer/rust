@@ -21,7 +21,7 @@ fn read_input() -> u32 {
 fn fibonacci(index: u32) -> u32 {
     let mut first: u32 = 0;
     let mut second: u32 = 1;
-    let mut current: u32 = 0;
+    let mut current;
     let mut i: u32 = 3;
 
     if index == 0 {
